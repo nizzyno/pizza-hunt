@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/pizzas
+Content-Type: application/json
+
+{
+    "pizzaName": "The Demo Pizza",
+    "createdBy": "Lernantino",
+    "size": "Personal",
+    "toppings": [
+        "Sausage",
+        "Pepperoni",
+        "Cherry Peppers"
+    ]
+}
